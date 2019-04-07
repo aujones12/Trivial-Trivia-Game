@@ -1,0 +1,62 @@
+.page-header{
+	color:  #00264d;
+	text-align: center;
+	background-color: white;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	margin: auto;
+}
+
+#header{
+	font-size: 65px;
+}
+
+body{
+	background-image: url("../Images/Simple-Pattern.jpg");
+	
+	
+}
+
+#display{
+	color: black;
+	text-align: center;
+	font-size: 35px;
+}
+
+#questionList{
+	color:  black;
+	font-size: 20px;
+	text-align: center;
+}
+
+#intro{
+	color: black;
+	font-size: 45px;
+	text-align: center;
+}
+
+#SplashScreen {
+	text-align: center;
+}
+
+#StartButton{
+    padding: 18px 28px;
+    font-size: 22px;
+    line-height: normal;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+			color: white;
+            background-color: #3b76b1;
+            font-family: 'Dancing Script', cursive;
+}
+
+#results{
+	color: black;
+	font-size: 45px;
+	text-align: center;
+}
+
+.btn-lg {
+	background-color: #3b76b1;
+}

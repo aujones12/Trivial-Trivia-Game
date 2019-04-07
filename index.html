@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trivial Trivia Game</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</head>
+<body>
+
+<div class="page-header">
+  <h1 id="header">New York Yankees Quiz</h1>
+</div>
+
+<div class="row"></div>
+
+<div class="container">
+	<div id="mainSection">
+		<div id="SplashScreen">
+			<h1 id="intro">Trivial Trivia Game</h1>
+				<input id="StartButton" class="btn btn-primary" type="button" value="Start"/>
+		</div>
+
+		<!-- TIME REMAINING DIV -->
+		<h2 id="display">Time Remaining: </h2>
+				
+
+				<div id="questionList">
+						
+				<div class="panel panel-default">
+  					<div class="panel-body">
+    					<h2>Which fictional city is the home of Batman?</h2>
+							<input class="card-text" type="radio" name="question1" value="correct"> Gotham City <br>
+							<input class="card-text" type="radio" name="question1" value="wrong"> Los Angeles <br>
+							<input class="card-text" type="radio" name="question1" value="wrong"> New York City <br>
+							<input class="card-text" type="radio" name="question1" value="wrong"> Seattle <br>
+  					</div>
+				</div>
+								
+				<div class="panel panel-default">
+  					<div class="panel-body">
+    					<h2>Which type of dog has breeds called Scottish, Welsh and Irish?</h2>
+    						<input type="radio" name="question2" value="wrong"> Iron <br>
+							<input type="radio" name="question2" value="wrong"> Beagle <br>
+							<input type="radio" name="question2" value="wrong"> Labrador <br>
+							<input type="radio" name="question2" value="correct"> Terrier <br>
+  					</div>
+				</div>						
+						 
+				<div class="panel panel-default">
+  					<div class="panel-body">
+						<h2>Babe Ruth is associated with which sport?</h2>
+							<input type="radio" name="question3" value="wrong"> Football<br>
+							<input type="radio" name="question3" value="wrong"> Basketball<br>
+							<input type="radio" name="question3" value="correct"> Baseball<br>
+							<input type="radio" name="question3" value="wrong"> Cricket<br>
+					</div>
+				</div>
+	
+				<div class="panel panel-default">
+  					<div class="panel-body">
+    					<h2>Which Roman emperor supposedly fiddled while Rome burned?</h2>
+							<input type="radio" name="question4" value="wrong"> Alexander the Great<br>
+							<input type="radio" name="question4" value="correct"> Nero<br>
+							<input type="radio" name="question4" value="wrong"> Philip II of Macedon<br>
+							<input type="radio" name="question4" value="wrong"> Leonidas I<br>
+  					</div>
+				</div>
+
+				<div class="panel panel-default">
+  					<div class="panel-body">
+						<h2>Who is the all-time Wins leader for the New York Yankees?</h2>
+							<input type="radio" name="question5" value="wrong"> Andy Pettitte <br>
+							<input type="radio" name="question5" value="correct"> Whitey Ford <br>
+							<input type="radio" name="question5" value="wrong"> Mel Stottlemyre <br>
+							<input type="radio" name="question5" value="wrong"> Ron Guidry <br>
+						</div>
+					</div>	
+
+			<div id="results"></div>
+
+</body>
+</html>
